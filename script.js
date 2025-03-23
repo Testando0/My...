@@ -27,25 +27,25 @@ function changeText() {
 
     // Altera o texto após 6 segundos
     setTimeout(() => {
-        mainText.textContent = "Achei que essa fosse a melhor decisão pra nós, mas eu estava completamente errado.";
+        mainText.textContent = "Você Foi A Melhor Coisa Que Aconteceu Em Minha Vida";
         subText.textContent = ""; // Opcional: Limpa o texto secundário
         
         // Altera o texto novamente após mais 6 segundos
         setTimeout(() => {
-            mainText.textContent = "Eu não consigo viver sem você, você é tudo o que eu mais quero na vida";
+            mainText.textContent = "Minha Melhor Escolha";
             
             // Altera o texto novamente após mais 6 segundos
             setTimeout(() => {
-                mainText.textContent = "Por favor, me dê uma chance de corrigir meus erros.";
+                mainText.textContent = "Minha Vida Já Não Tem Mais Sentido Sem Você";
                 
                 // Altera o texto novamente após mais 6 segundos
                 setTimeout(() => {
-                    mainText.textContent = "Queria pedir mil desculpas por ter te feito passar por isso.";
+                    mainText.textContent = "Queria Pedir Desculpa Por Todos Os Meus Erros, Você É Mais Especial Que Qualquer Coisa Neste Mundo Para Mim...";
                     
                     // Exibe a mensagem final e o link após mais 6 segundos
                     setTimeout(() => {
-                        mainText.textContent = "Queria conversar com você, gostaria de tentar novamente?";
-                        buttonContainer.innerHTML = '<a href="https://api.whatsapp.com/send/?phone=553499082489&text&type=phone_number&app_absent=0" class="button">Voltar para mim</a>';
+                        mainText.textContent = "Volta Para Mim...";
+                        buttonContainer.innerHTML = '<a href="https://api.whatsapp.com/send/?phone=5512988255401&text&type=phone_number&app_absent=0" class="button">Voltar...</a>';
                     }, 6000);
                 }, 6000);
             }, 6000);
